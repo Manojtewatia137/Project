@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./project2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+<div class="contaner">
+    <div class="slider_page">
+  <a href="./project2.html">  <div class="log1_img">
+    <img src="./image/log.png" alt="" class="log" align="left">
+    <h1>Astrix.</h1>
+    </div>
+  </a>
+      <div id="slider" class="owl-carousel">
+        <div class="slider_img" >
+            <img src="./image/music.jpg" alt="">
+        </div>
+
+        <div class="slider_img">
+            <img src="./image/china-astro.jpg" alt="">
+        </div>
+
+        <div class="slider_img">
+            <img src="./image/popcon.jpeg" alt="">
+        </div>
+        <div class="slider_img">
+            <img src="./image/10stadium-styles5.jpg " alt="">
+        </div>
+    </div> 
+    
+    <button class=" event">Events</button>
+    <button class="collection">Collections</button>
+    </div>
+    <!-- page2 -->
+    <div class="meta">
+        <h4>Explore Youre First <br> Event</h4>
+        <h1>Event Name</h1>
+        <div>
+            <span class="location"><i class="bi bi-geo-alt"></i> <span>Venue</span></span>
+            <i class="bi bi-alarm"></i> <span>04/03/2024 @19:00</span>
+
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ipsam vero assumenda iusto esse, vitae obcaecati nulla velit aut id rem voluptatum libero consequatur ut, magni incidunt tempore minus quo.</p>
+        <h4 class="art">Artist Lineup</h4>
+        <div class="img1">
+        <div class="img">
+            <img src="./image/download (1).jpeg" alt="">
+        </div>
+
+        <div class="img12">
+            <img src="./image/download.jpeg" alt="">
+
+        </div>
+        <div class="img">
+            <img src="./image/download (1).jpeg" alt="">
+
+        </div>
+        </div>
+        
+        <div class="qr">
+            <img src="./image/qr.jpg" alt="">
+        </div>
+        
+        <button class="btn"><b>Join Waitlist</b></button>
+    </div>
+ 
+</div>
+
+
+<div class="page">
+    <marquee behavior="alternate" direction="">Event:Oasis Bus tour , JLM Stadium , Delhi   <i class="bi bi-asterisk"></i>   Collection Live :
+        Meta Live ,live on</marquee>
+</div>
+
+
+
+   
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $(document).ready(function () {
+        $("#slider").owlCarousel({
+            margin: 20,
+            loop: true,
+            center:true,
+             autoplay: true,
+           autoplayTimeout: 1000,
+           autoplayHoverPause: true,
+
+           responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true, 
+            // loop:false,
+             
+        }
+           }
+        });
+
+    });
+</script>
+
+</html>

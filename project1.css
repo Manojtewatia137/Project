@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+body{
+    background-color:rgb(254, 236, 215);
+}
+
+.contaner{
+    margin: 100px 100px;
+}
+
+h1{
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+
+.log{
+  width: 40px;
+  display: inline-block;
+  
+}
+
+
+
+
+.page{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-left: 150px;
+    
+}
+
+P{
+    margin-top: 40px;
+}
+
+.img{
+  height: 44px;
+  width: 30%;
+  
+}
+
+.moving{
+  position: relative;
+  animation: move 6s steps(4) infinite;
+  overflow: hidden;
+  background-color:rgb(254, 236, 215) ;
+  
+  
+}
+
+
+@keyframes move {
+  25%{
+    left:-50px;
+  }
+  50%{
+    left:-100px;
+  }
+  100%{
+    left: -150px;
+  }
+}
+
+
+.img1{
+  height: 44px;
+  width: 43%;
+  
+}
+
+
+.moving1{
+  position: relative;
+  animation: move 6s steps(4) infinite;
+  overflow: hidden;
+  background-color:rgb(254, 236, 215) ;
+  color:rgb(254, 236, 215) ;
+  
+}
+
+.img2{
+  height: 44px;
+  width: 20%;
+}
